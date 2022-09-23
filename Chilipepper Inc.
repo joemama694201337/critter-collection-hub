@@ -1,0 +1,369 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local X = Material.Load({
+	Title = "Chilipepper Inc. Hub",
+	Style = 3,
+	SizeX = 500,
+	SizeY = 350,
+	Theme = "Light",
+	ColorOverrides = {
+		MainFrame = Color3.fromRGB(235,235,235)
+	}
+})
+
+local Y = X.New({
+	Title = "Main"
+})
+
+local Z = X.New({
+	Title = "2"
+})
+
+local A = Y.Button({
+	Text = "Sell All",
+	Callback = function()
+  
+  local args = {
+    [1] = "M2rcy"
+}
+		game:GetService("ReplicatedStorage").StoreAllCritters:FireServer()
+    Wait(0.1)
+    local args = {
+    [1] = "Gremsplit"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+  
+    local args = {
+    [1] = "Gremsplit"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+  
+    local args = {
+    [1] = "Glorbox; The Worried"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+  
+  local args = {
+    [1] = "Bomble"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+  local args = {
+    [1] = "Coffee Jones"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "The Nose"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "Jake Slickstone"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "Screwball"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "Unlucky"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "Gingo McTucket"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+  local args = {
+    [1] = "Neko"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Toni"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "X-Treme Thirst"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Blockzer"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Silliez"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Cathodie"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "SprayBoy"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Tetri"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "gilbert."
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "High-Roller"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "MC Bloodsauce"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Sickly"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Whack-A-Wilson"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Bowling Bull"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Cubent"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Rotisso"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Henry"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Pyramid Steve"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Hard-Boiled Detective"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Shoegal"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Carrie"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Bloonspin"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Nerdlet"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+local args = {
+    [1] = "Sergeant B. Hopperson"
+}
+
+game:GetService("ReplicatedStorage").SellCritter:FireServer(unpack(args))
+
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Stores all critters then sells all of them, must be updated manually."
+			})
+		end
+	}
+})
+
+local B = Y.Button({
+	Text = "Spawn Chicken",
+	Callback = function()
+		local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(368.4035339355469, 33.50004577636719, 80.3696060180664),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Spawns chickens"
+			})
+		end
+	}
+})
+
+
+local A = Y.Button({
+	Text = "Collect Coins",
+	Callback = function()
+workspace.Coin.RemoteEvent:FireServer()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Collects coins"
+			})
+		end
+	}
+})
+
+local A = Y.Button({
+	Text = "Open Capsules",
+	Callback = function()
+workspace.Bases.M2rcy.Capsules.Sickly.RemoteEvent:FireServer()
+workspace.Bases.M2rcy.Capsules.Unlucky.RemoteEvent:FireServer()
+	end,
+	Menu = {
+		Information = function(self)
+			X.Banner({
+				Text = "Opens capsules for you"
+			})
+		end
+	}
+})
