@@ -354,7 +354,7 @@ workspace.Coin.RemoteEvent:FireServer()
 })
 
 local A = Y.Button({
-	Text = "Open Capsules",
+	Text = "Open Capsules WORK IN PROGRESS",
 	Callback = function()
 workspace.Bases.M2rcy.Capsules.Sickly.RemoteEvent:FireServer()
 workspace.Bases.M2rcy.Capsules.Unlucky.RemoteEvent:FireServer()
