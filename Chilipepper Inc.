@@ -328,6 +328,76 @@ local args = {
 
 game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
 
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
+local args = {
+    [1] = Vector3.new(1428.5743408203125, 32.929901123046875, 12.516387939453125),
+    [2] = "ChickenDrumstick"
+}
+
+game:GetService("ReplicatedStorage").BuyFood:FireServer(unpack(args))
+
 	end,
 	Menu = {
 		Information = function(self)
